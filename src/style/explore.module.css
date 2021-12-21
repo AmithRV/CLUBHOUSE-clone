@@ -1,0 +1,166 @@
+.exploreContainer
+{
+    background-color: #ddd8bf;
+    padding: 0 0.5em;
+    height: 100vh;
+    overflow: auto;
+    padding-top: 5.2em;
+}
+
+.exploreContainer h6
+{
+    font-size: 0.97em;
+    font-weight: 500;
+    color: #726868;
+    margin: 1.5em 0 0.5em 0;
+}
+
+.showMore
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #f4f4f4;
+    border: none !important;
+    color: #aaaaaa;
+    box-shadow: 0px 2px 3px #cccccc;
+    font-weight: 500;
+}
+
+.showMore span
+{
+    font-size: 0.775em;
+    margin-top: 0.4em;
+    margin-left: 0.5em;
+}
+
+.peopleContainer img
+{
+    width: 40px;
+    border-radius: 1.1em;
+}
+
+.peopleContainer 
+{
+    background-color: #ffffff;
+    margin: 0 -0.5em;
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    position: relative;
+}
+
+.peopleContainer > div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.peopleContainer h5
+{
+    color: var(--textColor);
+    font-size: 1.1em;
+    margin-bottom: 0.2em;
+}
+
+.peopleContainer p
+{
+    color: var(--textColor);
+    font-size: 0.9em;
+    margin: 0;
+    display: block;
+    display: -webkit-box;
+    width: 173px;
+    height: fit-content;
+    line-height: 1.15;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient:vertical ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #aaaaaa;
+}
+
+.peopleContainer button
+{
+    background-color: transparent;
+    border: 2px solid var(--btnColor);
+    border-radius: 2em;
+    color: var(--btnColor);
+    font-weight: 400;
+    font-size: 1em;
+    padding: 0.1em 1.2em;
+}
+
+.showMore
+{
+    background-color: #e6e4dc !important;
+    color: #726868 !important;
+}
+.conversationCard
+{
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    box-shadow: 0px 2px 2px 3px #cccccc;
+}
+
+.conversationCard h6
+{
+    color: black;
+    font-size: 1em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+ 
+.conversationCard h6 span
+{
+    margin-right: 0.2em;
+}
+
+.conversationCard p
+{
+    padding-top: 0.2em;
+    margin: 0;
+    color: hsl(0, 4%, 35%);
+    line-height: 1.2;
+    font-size: 0.9em;
+}
+
+.header
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #f2f0e4;
+    z-index: 5;
+    padding-bottom: 0.8em;
+    padding-left: 0.5em;
+}
+
+.head img
+{
+    width: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.head 
+{
+    text-align: center;
+    padding: 0.5em 0.5em;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+.head h3
+{
+    margin: 0;
+    font-size: 1.2em;
+}

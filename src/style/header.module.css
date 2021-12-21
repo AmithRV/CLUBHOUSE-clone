@@ -1,0 +1,44 @@
+.Header
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e5e1be;
+}
+
+.Header img
+{
+    width: 35px;
+
+}
+
+.invite img
+{
+    width:66px;
+}
+
+.calender img
+{
+    width:40px;
+}
+
+.notification img
+{
+    width: 45px;
+}
+
+.profile_icon img
+{
+    width: 45px;
+    border-radius: 20px;
+}
+
+.nav_items img
+{
+    margin: 0 0.8em;
+}

@@ -1,0 +1,56 @@
+:root
+{
+  --textColor: rgb(65,64,66);
+  --btnColor: #3287b7;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-family: "Neutrif Pro";
+}
+
+button
+{
+  outline: none !important;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.primaryBtn
+{
+  background-color:var(--btnColor);
+  border-radius: 2em;
+  padding: 0.1em 1.5em ;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: white;
+}
+
+a:hover
+{
+  text-decoration: none !important;
+}
+
+.app_layout
+{
+  background-color: #eee7c0;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden; /* to remove vertical scroll bar*/
+}

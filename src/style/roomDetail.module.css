@@ -1,0 +1,168 @@
+.roomDetailContainer
+{
+    height:100%;
+    background: #f2f0e4;
+}
+
+.roomDetailContainer .head
+{
+    height: 25px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2em 0.5em 1.5em 0.5em;
+}
+
+.head .arrow_icon
+{
+    width:15px;
+    transform: rotate(-90deg);
+    margin-top: -0.5em;
+}
+
+.head .profile_img
+{
+    width: 20px;
+    border-radius:0.8em ;
+    margin-left: 1.2em;
+}
+
+.head span
+{
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+
+.head svg
+{
+    font-size: 1.4em;
+}
+
+.roomDetailCard
+{
+    background-color: #ffffff;
+    padding: 1em 1em 3em 1em;
+    border-radius: 1.5em 1.5em 1.5em 0 0;
+    height: 90vh;
+    overflow: auto;
+}
+
+.roomDetailCard img{
+    width: 70px;
+    height: 80px;
+    border-radius: 1.7em;
+}
+
+.roomDetailCard h6
+{
+    font-size: 0.657em;
+    color: var(--textColor);
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+
+.memberContainer
+{
+    text-align: center;
+    width: 70px;
+    position: relative;
+}
+
+.memberContainer .audio_icon
+{
+    position: absolute;
+    right: -5px;
+    bottom: 36px;
+    z-index: 5;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3px #cccccc;
+}
+
+.memberContainer .audio_icon svg
+{
+    color: #28ae61;
+}
+
+.memberContainer p
+{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+}
+
+.memberContainer span
+{
+    font-size: 2.5em;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #28ae61;
+    color: white;
+    margin-right: 0.1em;
+    line-height: 0.8;
+}
+
+.footer
+{
+    padding-bottom: 0.2em;
+    padding-left: 0.2em;
+    background-color: #ffffff;
+}
+
+.footer > button > img
+{
+    width: 20px;
+}
+
+.footer > div > button > img
+{
+    width: 20px; 
+}
+
+.footer > div
+{
+    font-size: 1.5em;
+    padding-bottom: 1.9em;
+    padding-right: 0.4em;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    transform: translatey(-50%);
+}
+ 
+.footer > div > button
+{
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    border: none;
+    background-color: #cccccc;
+}
+
+.footer > button > img
+{
+    width: 30px;  
+}
+
+.footer > button
+{
+    border: none;
+    background-color: #cccccc;
+    border-radius: 0.5em;
+}
+
+
+.stopHandicon
+{
+    width: 20px;
+    height: 30px;
+}

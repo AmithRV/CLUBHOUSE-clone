@@ -1,0 +1,62 @@
+{
+    "people":[
+        {
+            "title":"April Underwood",
+            "description":"CEO and Founder, local Libtatory. Co-founder...."
+        },
+        {
+            "title":"Helena Price Hambrecht",
+            "description":"CEO and Founder, local Libtatory. Co-founder"
+        },
+        {
+            "title":"James Cham",
+            "description":"CEO and Founder, local Libtatory. Co-founder"
+        },
+        {
+            "title":"April Underwood",
+            "description":"CEO and Founder, local Libtatory. Co-founder"
+        }
+    ],
+    "conversation":[
+        {
+            "title":"Tech",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Languages",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Places",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Identity",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Sports",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Life",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Knowledge",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Hustle",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Arts",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        },
+        {
+            "title":"Entertainment",
+            "description":"Venture capital, DTC, AI, SaaS, Angel Invest"
+        }
+    ]
+}
